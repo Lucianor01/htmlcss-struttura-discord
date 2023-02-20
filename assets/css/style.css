@@ -6,13 +6,14 @@ nav{
 }
 
 .container-nav{
-    border: 1px solid black;
+    border: 1px dotted black;
     display: flex;
+    background-color: yellowgreen;
 }
 
 nav div{
     width: 80%;
-    border: 1px solid black;
+    border: 1px dotted black;
 }
 
 .left-nav{
@@ -39,7 +40,6 @@ ul{
 
 header{
     padding: 30px;
-    margin: auto;
     display: flex;
     background-color: #060789;
     justify-content: space-around;
@@ -49,4 +49,99 @@ header{
     width: 600px;
     height: 300px;
     background-color: #e684ef;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-main{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.green-container{
+    width: 60%;
+    height: 300px;
+    border: 1px dotted black;
+    background-color: green;
+}
+
+.aqua-container{
+    width: 20%;
+    height: 300px;
+    border: 1px dotted black;
+    background-color: aqua;
+}
+
+.container-main-2{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.orange-container{
+    width: 80%;
+    height: 600px;
+    border: 1px dotted black;
+    background-color: orange;
+}
+
+footer{
+    background-color: midnightblue;
+}
+
+.container-footer-1{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer-left{
+    width: 40%;
+    border: 1px dotted black;
+    background-color: lightsalmon;
+    
+}
+
+.container-footer-right{
+    width: 10%;
+    height: 300px;
+    border: 1px dotted black;
+    background-color: olive;
+}
+
+hr{ 
+    margin: 0 auto;
+    width: 76%;
+    border: 1px solid green;
+}
+
+.container-footer-2{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer-left-2{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px dotted black;
+    background-color: greenyellow;
+}
+
+.container-footer-right-2{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px dotted black;
+    background-color: deeppink;
 }
